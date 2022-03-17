@@ -1,0 +1,31 @@
+/*Fluent CSS*/
+
+/*Titlebar garbage*/
+/*Titlebar fluent*/
+#search-icon-legacy {
+    background-color: rgba(200,200,200,0.3) !important;
+    border-radius: 4px !important;
+}
+
+/* Popup container light theme */
+.ytd-popup-container {
+    background-color: rgba(50,50,50,0.5) !important;
+    backdrop-filter: blur(8px) !important;
+    border-radius: 8px !important;
+}
+/* Option Menu "items" UI needs transparency for the UI to properly function*/
+#items, #contentWrapper {
+    background-color: rgba(0,0,0,0) !important;
+}
+
+/* Side panel open stuff*/
+/*Blurres the dimmer*/
+#scrim {
+    backdrop-filter:blur(8px) !important;
+}
+
+/* Youtube icon button fixup*/
+.yt-icon-button {
+    background-color: rgba(70,70,70,0.3) !important;
+    border-radius: 4px !important;
+}
